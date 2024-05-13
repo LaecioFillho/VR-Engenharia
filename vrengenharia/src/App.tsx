@@ -1,16 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import AbautIndex from './components/AbautIndex.tsx'
+import ContatctIndex from './components/ContatctIndex.tsx'
+import FooterIndex from './components/FooterIndex.tsx'
+import HeaderIndex from './components/HeaderIndex.tsx'
+import ProjectsIndex from './components/ProjectsIndex.tsx'
+import ServicesIndex from './components/ServicesIndex.tsx'
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>App</div>
-    </>
-  )
-}
-
-export default App
+    return (
+      <>
+        <main>
+          <HeaderIndex />
+          <AbautIndex />
+          <ServicesIndex />
+          <ProjectsIndex />
+          <ContatctIndex />
+        </main>
+        <footer>
+          <FooterIndex />
+        </footer>
+      </>
+    )
+  }
+  
+  export default App

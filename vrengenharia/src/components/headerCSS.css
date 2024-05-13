@@ -1,0 +1,17 @@
+.header{
+    width: 100%;
+    height: 500px;
+    
+    background: linear-gradient(to bottom, #100f0f, #05052f) 
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a{
+    text-align: right;
+    margin-left: 5px;
+}
