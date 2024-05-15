@@ -6,15 +6,18 @@ export default function headerIndex(){
 
         <>
             <section className="header">
-                <div className="Logo">
-                    <h1>Logo</h1>
-                </div>
-                <nav>
-                    <a href="#">Sobre a Empresa</a>
-                    <a href="#">Serviços</a>
-                    <a href="#">Projetos</a>
-                    <a href="#">Contatos</a>
-                </nav>
+                <aside className="back-header">
+                    <div className="Logo">
+                        <img className="img-logo" src="../src/assets/Logos/vr-white.png" alt="" />
+                    </div>
+                    <h4>Engenharia Especializada em design de predios, interiores e duplex. Construindo o seu Lar...</h4>
+                    <nav>
+                        <a href="#">Engenheiro</a>
+                        <a href="#">Serviços</a>
+                        <a href="#">Projetos</a>
+                        <a href="#">Contatos</a>
+                    </nav>
+                </aside>
             </section>
         </>
 

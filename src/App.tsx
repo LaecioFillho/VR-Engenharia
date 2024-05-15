@@ -11,8 +11,8 @@ function App() {
       <>
         <main>
           <HeaderIndex />
-          <AbautIndex />
           <ServicesIndex />
+          <AbautIndex />
           <ProjectsIndex />
           <ContatctIndex />
         </main>

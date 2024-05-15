@@ -1,0 +1,15 @@
+.warraper-services{
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+.text-alternative{
+    color: green;
+}
