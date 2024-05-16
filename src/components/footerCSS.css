@@ -1,0 +1,45 @@
+.Warraper-footer{
+    padding: 15px;
+
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ddd3d3;
+}
+
+.p-footer{
+    color: black;
+    font-weight: lighter;
+}
+
+.ul-footer{
+    display: flex;
+    text-decoration: none;
+}
+
+.li-footer{
+    list-style: none;
+}
+
+.a-footer{
+    color: black;
+    font-weight: lighter;
+    border: none;
+}
+
+@media ( max-width: 720px){
+
+    .Warraper-footer{
+        flex-direction: column;
+    }
+
+    .ul-footer{
+        align-items: center;
+    }
+
+    .a-footer{
+        display: block;
+        margin: 0;
+    }
+}

@@ -10,7 +10,7 @@ export default function headerIndex(){
                     <div className="Logo">
                         <img className="img-logo" src="../src/assets/Logos/vr-white.png" alt="" />
                     </div>
-                    <h4>Engenharia Especializada em design de predios, interiores e duplex. Construindo o seu Lar...</h4>
+                    <p className="p-header">Engenharia Especializada em design de predios, interiores e duplex. Construindo o seu Lar...</p>
                     <nav>
                         <a href="#">Engenheiro</a>
                         <a href="#">Serviços</a>

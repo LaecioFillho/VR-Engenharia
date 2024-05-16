@@ -1,15 +1,78 @@
+
+/*Parte total do Serviços*/
 .warraper-services{
     width: 100%;
-    height: 500px;
+    height: auto;
     padding: 20px;
 }
 
-h1{
+/*Textos iniciais*/
+
+.h1-services{
     text-align: center;
     font-weight: lighter;
     font-size: xx-large;
+    border-bottom: 1px solid white;
+    padding: 5px;
+}
+
+.p-services{
+    font-weight: lighter;
+    text-align: center;
 }
 
 .text-alternative{
     color: green;
+}
+
+/*Cardes dos Serviços*/
+
+.card-services{
+    color: white;
+    max-width: 450px;
+    min-width: 350px;
+    height: auto;
+    background-color: #008000d7;
+    padding: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.general-service{
+    display: flex;
+    gap: 1rem;
+    margin: 3rem 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+/*Icones dos Serviços*/
+
+.service-icon{
+    align-self: center;
+    width: 150px;
+    height: auto;
+}
+
+.arrow-next{
+    display: none;
+}
+
+@media (max-width: 720px){
+    .general-service{
+        overflow-x: scroll;
+    }
+
+    .arrow-next{
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
 }
