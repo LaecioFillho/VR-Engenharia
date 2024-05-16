@@ -8,7 +8,7 @@ export default function headerIndex(){
             <section className="header">
                 <aside className="back-header">
                     <div className="Logo">
-                        <img className="img-logo" src="../src/assets/Logos/vr-white.png" alt="" />
+                        <img className="img-logo" src="../src/assets/Logos/vr-white.svg" alt="Logo Marca" />
                     </div>
                     <p className="p-header">Engenharia Especializada em design de predios, interiores e duplex. Construindo o seu Lar...</p>
                     <nav>
