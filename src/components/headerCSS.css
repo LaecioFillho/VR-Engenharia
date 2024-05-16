@@ -22,9 +22,14 @@
     gap: 3rem;
 }
 
-.img-logo{
+.Logo{
     width: 300px;
-    height: auto;
+    height: 300px;
+    
+    background-image: url(../assets/Logos/vr-white.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .p-header{
