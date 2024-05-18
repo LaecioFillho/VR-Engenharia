@@ -35,13 +35,15 @@
     font-weight: lighter;
     border-bottom: 1px solid #008000d7;
     margin-bottom: 10px;
+    margin-left: 5rem;
 }
 
 /*Divisão dos contatos*/
 
 .div-contact{
     display: flex;
-    flex-direction: column;
+    gap: 2rem;
+    padding: 0 5rem;
 }
 
 /*Labels*/
@@ -84,23 +86,86 @@
 .btn-env-contact{
     color: white;
     font-size: 18px;
-    width: 150px;
+    width: 200px;
     padding: 10px;
+    margin-top: 10px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
     background-color: #008000d7;
+    transition: 0.2s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.btn-env-contact:hover{
+    background-color: #08b708d2;
+}
+
+.animation-btn{
+    
+}
+
+.animation-btn-conclued{
+    height: 20px;
+    width: 20px;
+}
+
+/*Contatos alternativos*/
+
+.contacts-alternative{
+    padding: 2rem 4rem 4rem 4rem;
+    color: black;
+}
+
+.contact-wpp{
+    color: black;
+    margin-bottom: 10px;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    border: 2px dashed green;
+    border-radius: 10px;
+}
+
+.icon-contact{
+    height: 40px;
+    width: 40px;
+}
+
+.p-contact-alternative{
+    text-align: left;
+    font-weight: 500;
+}
+
+.a-contact{
+    color: black;
+    font-weight: lighter;
+    text-decoration: underline;
 }
 
 @media (max-width: 920px){
 
-    #imenssege{
-        width: 330px;
-    }
-
     .inputs-contact{
         gap: 0.5rem;
         flex-direction: column;
+    }
+
+    .h1-alternative-contact{
+        margin-left: 0;
+    }
+
+    .div-contact{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 0;
     }
 
     .btn-env-contact{
@@ -108,4 +173,17 @@
         margin-top: 20px;
     }
 
+    .a-contact{
+        display: block;
+    }
+
+    .contacts-alternative{
+        width: 100%;
+        padding: 0;
+    }
+
+    .contact-wpp{
+        font-size: 18px;
+        align-items: center;
+    }
 }

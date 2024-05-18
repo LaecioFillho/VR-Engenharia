@@ -21,14 +21,17 @@
 }
 
 .h1-projects{
+    text-align: center;
     font-weight: lighter;
     font-size: xx-large;
 }
 
 .p-projects{
+    text-align: center;
     font-weight: lighter;
     font-size: 18px;
     margin-top: 5px;
+    color: white;
 }
 
 .h1-alter-projects{
@@ -38,8 +41,13 @@
 
 /*Cardes dos projetos*/
 
-.box-projects{
+.projects-desc{
     margin-top: 4rem;
+    color: white;
+}
+
+.box-projects{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     gap: 3rem;
@@ -62,20 +70,32 @@
 }
 
 .one{
+    margin-top: 10px;
     background-image: url(../../public/img-projects/project-one.jpeg);
 }
 
 .two{
+    margin-top: 10px;
     background-image: url(../../public/img-projects/project-three.jpeg);
 }
 
 .three{
+    margin-top: 10px;
     background-image: url(../../public/img-projects/project-two.jpeg);
+}
+
+/*Descrição dos cardes dos projetos*/
+
+.h2-projects{
+    color: white;
+    font-weight: lighter;
+    text-align: center;
 }
 
 
 @media (max-width: 920px){
     .warraper-projects{
+        height: 850px;
         padding-top: 4rem;
         text-align: center;
         border-radius: 10rem 10rem 0 0;
