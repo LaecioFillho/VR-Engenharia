@@ -19,10 +19,10 @@ export default function() {
     
         emailjs
           .sendForm(
-            "service_i7kvts9",
-            "template_wggbd44",
+            "service_u3yozc3",
+            "template_6g3pita",
             form.current,
-            "BxeVp4EHUwWj3biXB"
+            "SpbQR3KtRqd7YG4yh"
           )
           .then(
             () => {
@@ -40,14 +40,14 @@ export default function() {
       const contacts = [
         {
           name: "WhatsApp",
-          description: "+55 88 9 9200-4177",
-          link: "https://wa.me/5588992004177?text=Olá,tudo.bem?Gostaria.decombinar.um.projeto.para.o.meu.trabalho",
+          description: "+55 88 9 9489-9283",
+          link: "https://wa.me/5588994899283?text=Olá,tudo.bem?Gostaria.decombinar.um.projeto.para.o.meu.trabalho",
           icon: <FaWhatsapp className="icon-contact" />,
         },
         {
           name: "Email",
-          description: "laeciofillho@gmail.com",
-          link: "mailto:laeciofillho@gmail.com?subject=Olá...",
+          description: "victor.ramirez.oxford@gmail.com",
+          link: "mailto:victor.ramirez.oxford@gmail.com?subject=Olá...",
           icon: <HiOutlineEnvelope className="icon-contact" />,
         },
         {
@@ -73,17 +73,17 @@ export default function() {
                     <div>
                         <form ref={form} onSubmit={sendEmail} className="form-contact">
                             <label htmlFor="imessege" className="label-contact">Mensagem</label>
-                            <textarea name="text-area" id="imenssege" required placeholder="Ex: Olá, gostaria de realizar um orçamento estrutural, por gentileza!">
+                            <textarea name="imessege" id="imenssege" required placeholder="Ex: Olá, gostaria de realizar um orçamento estrutural, por gentileza!">
 
                             </textarea>
                             <div className="inputs-contact">
                                 <div>
                                     <label htmlFor="iname" className="label-contact">Seu nome:</label>
-                                    <input type="text" name="name" id="iname" placeholder="Cliente Junior..." required />
+                                    <input type="text" name="iname" id="iname" placeholder="Cliente Junior..." required />
                                 </div>
                                 <div>
                                     <label htmlFor="iemail" className="label-contact">Seu email:</label>
-                                    <input type="email" name="email" id="iemail" placeholder="cliente@gmail.com..." required />
+                                    <input type="email" name="iemail" id="iemail" placeholder="cliente@gmail.com..." required />
                                 </div>
                             </div>
                             <button type="submit" disabled={loading} className="btn-env-contact">
