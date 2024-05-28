@@ -14,21 +14,17 @@ export default function AbautIndex() {
                     <div className="bar"></div>
                 </div>
                 <section className="abaut">
-                    <aside className="back-abaut"></aside>
+                    <div className="back-abaut-one">
+                        <aside className="back-abaut"></aside>
+                    </div>
                     
                     <article>
-                        <h1 className="h1-abaut">Engenharia <span>Especializada</span></h1>
+                        <h1 className="h1-abaut">Empresa Especializada em <span className="h2-alternative">Projetos BIM</span></h1>
                         <p className="p-abaut">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <div className="description-abaut">
-                            <h2 className="h2-abaut">Sobre o <span className="h2-alternative">Engenheiro</span></h2>
+                            <h2 className="h2-abaut">Sobre a <span className="h2-alternative">VR Engenharia</span></h2>
                             <p className="p-description-abaut">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                Reiciendis praesentium eos dicta tempora nesciunt expedita ipsa necessitatibus porro sapiente accusamus? 
-                                Illum rem quaerat cupiditate debitis unde eius. Incidunt, deleniti nam.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Corporis assumenda voluptatum consequuntur porro cupiditate. 
-                                Repellendus deserunt libero molestias mollitia, aut voluptas eaque dolores non provident quidem ipsum, 
-                                inventore sequi error.
+                                A VR Engenharia é uma empresa especializada em projetos arquitetônicos e complementares, utilizando a metodologia BIM (Building Information Modeling) para garantir precisão e eficiência. Nossa equipe transforma as necessidades dos clientes em soluções personalizadas que combinam funcionalidade, estética e sustentabilidade. Com o BIM, oferecemos visualizações detalhadas e gestão eficiente dos recursos. Comprometidos com a qualidade e a satisfação do cliente, entregamos projetos que superam expectativas dentro do prazo e orçamento.
                             </p>
                         </div>
                     </article>

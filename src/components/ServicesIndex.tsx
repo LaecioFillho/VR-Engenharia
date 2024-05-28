@@ -6,21 +6,27 @@ import { HiArrowLongRight } from "react-icons/hi2"
 
 export default function ServicesIndex() {
 
+    const messegerwapp = "Olá, gostaria de realizar um Orçamento de um projeto do meu sonho!"
+
+
     const services = [
         {
             title: "Projetos Arquitetonicos",
-            description: "Criando projetos e designes graficos 3D para realizar aprensentação de toda estrutura, antes da excução da obra.",
+            description: "Um projeto arquitetônico é a concepção e o planejamento detalhado de uma construção, buscando harmonizar aspectos estéticos, funcionais e de conforto. ",
             icon: <HiOutlineBuildingOffice2 className="service-icon"/>,
+            link: `https://wa.me/5588994899283?text=${messegerwapp}`,
         },
         {
             title: "Projetos Estruturais",
             description: "Criando projetos e designes graficos 3D para realizar aprensentação de toda estrutura, antes da excução da obra.",
             icon: <HiBuildingLibrary className="service-icon"/>,
+            link: `https://wa.me/5588994899283?text=${messegerwapp}`,
         },
         {
             title: "Lev. da Construção",
             description: "Criando projetos e designes graficos 3D para realizar aprensentação de toda estrutura, antes da excução da obra.",
             icon: <HiOutlineClipboardDocumentCheck className="service-icon"/>,
+            link: `https://wa.me/5588994899283?text=${messegerwapp}`,
         },
     ]
     return(
@@ -37,6 +43,7 @@ export default function ServicesIndex() {
                             <p className="p-services">{service.description}</p>
                             <div>{service.icon}</div>
                             <div> <HiArrowLongRight  className="arrow-next"/> </div>
+                            <a className="a-Service" href={service.link}>Fazer Orçamento</a>
                         </div>         
                     </div>))}
                 </div>

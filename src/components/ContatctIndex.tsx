@@ -3,8 +3,9 @@ import emailjs from "@emailjs/browser"
 import { FormEvent, useRef, useState } from "react"
 import { FaSpinner, FaWhatsapp } from "react-icons/fa"
 import { HiCheckCircle, HiOutlineEnvelope, HiOutlineMapPin, } from "react-icons/hi2"
+import { IoLogoInstagram } from "react-icons/io5";
 
-export default function() {
+export default function ContatctIndex() {
     const form = useRef<HTMLFormElement>(null)
     const [loading, setLoading] = useState(false)
     const [success, setSuccess] = useState(false)
@@ -37,13 +38,23 @@ export default function() {
           )
       }
 
+      const messegerwapp = " Olá, gostaria de realizar um Orçamento de um projeto do meu sonho!"
+
       const contacts = [
         {
           name: "WhatsApp",
           description: "+55 88 9 9489-9283",
-          link: "https://wa.me/5588994899283?text=Olá,tudo.bem?Gostaria.decombinar.um.projeto.para.o.meu.trabalho",
+          link: `https://wa.me/5588994899283?text=${messegerwapp}`,
           icon: <FaWhatsapp className="icon-contact" />,
         },
+
+        {
+          name: "Instagram",
+          description: "Siga VR-Engenharia ",
+          link: "https://www.instagram.com/vr.engenhariia/",
+          icon: <IoLogoInstagram className="icon-contact" />,
+        },
+
         {
           name: "Email",
           description: "victor.ramirez.oxford@gmail.com",
@@ -63,7 +74,7 @@ export default function() {
             <section className="warraper-contact" id="icontact">
                 <aside className="text-initial-contact">
                     <h1 className="h1-contact">Faça seu Orçamento</h1>
-                    <p className="p-contact">Já garanta o seu projeto do jeitinho que você deseja, pelo o preço que cabe no seu bolso!</p>
+                    <p className="p-contact">Fale pelo<a className="a-contact" href={`https://wa.me/5588994899283?text=${messegerwapp}`} target="_blank" >WhatsApp</a>ou visite nossa pagina no<a className="a-contact" href="https://www.instagram.com/vr.engenhariia/">Instagram.</a></p>
                 </aside>
 
                 <aside>

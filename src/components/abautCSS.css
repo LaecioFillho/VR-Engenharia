@@ -24,7 +24,7 @@
 .bar-max{
     width: 80%;
     height: 15px;
-    background-color: green;
+    background-color: black;
     border-radius: 5px;
 }
 
@@ -32,19 +32,29 @@
     display: flex;
     width: 15px;
     height: 15px;
-    background-color: green;
+    background-color: black;
     border-radius: 50%;
 }
 
 /*Imagem de fundo de uma parte*/
 
-.back-abaut{
-    min-width: 50%;
+.back-abaut-one{
+    width: 50%;
     height: 500px;
-    border-top-right-radius: 15rem;
-    border-bottom-right-radius: 15rem;
+    background-color: black;
+    border-top-right-radius: 10rem;
+    border-bottom-right-radius: 10rem;
 
-    background-image: url(../assets/Fundos/back-abaut.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-abaut{
+    width: 400px;
+    height: 400px;
+
+    background-image: url(../assets/Logos/vr-white.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -52,7 +62,7 @@
 
 .h1-abaut{
     font-size: x-large;
-    color: green;
+    color: black;
     text-align: center;
     font-weight: 400;
 }
@@ -64,14 +74,15 @@
 }
 
 .h2-alternative{
-    color: green;
+    color: black;
     font-weight: 600;
     padding: 2px;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid black;
 }
 
 .p-abaut{
     text-align: center;
+    margin-top: 5px;
     margin-bottom: 70px;
     margin-left: 20px;
     margin-right: 20px;
@@ -85,12 +96,14 @@ article{
 }
 
 .description-abaut{
-    margin: 20px;  
+    max-width: 600px;
+    margin: 40px;  
     padding: 20px;
     text-align: justify;
 }
 
 .p-description-abaut{
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -102,7 +115,7 @@ article{
         align-items: start;
     }
 
-    .back-abaut{
+    .back-abaut-one{
         min-width: 100%;
         margin-bottom: 30px;
         border-top-right-radius: 0;
@@ -110,8 +123,17 @@ article{
         border-bottom-right-radius: 10rem;
     }
 
+    .back-abaut{
+        width: 300px;
+        height: 300px;
+    }
+
     .p-abaut{
         margin-bottom: 30px;
+    }
+
+    .p-description-abaut{
+        font-size: 16px;
     }
     
 }
