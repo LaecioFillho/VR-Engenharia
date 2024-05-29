@@ -23,8 +23,8 @@ export default function ServicesIndex() {
             link: `https://wa.me/5588994899283?text=${messegerwapp}`,
         },
         {
-            title: "Lev. da Construção",
-            description: "Criando projetos e designes graficos 3D para realizar aprensentação de toda estrutura, antes da excução da obra.",
+            title: "Projetos de Instalações",
+            description: "A criação de projetos de instalações Hidraulicas e de Intalções Eletricas.",
             icon: <HiOutlineClipboardDocumentCheck className="service-icon"/>,
             link: `https://wa.me/5588994899283?text=${messegerwapp}`,
         },

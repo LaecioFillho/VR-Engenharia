@@ -2,13 +2,13 @@
 
 .warraper-projects{
     width: 100%;
-    height: 750px;
+    height: auto;
     margin: 5rem 0;
     padding: 25px;
-    border-radius: 15rem ;
-    background-color: #008000d7;
+    border-radius: 10rem 10rem 0 0 ;
+    background-color: black;
 }
-
+/*#008000d7*/
 /*background: linear-gradient(to top, #100f0f, #030322)*/
 
 /*Área de texto inicial*/
@@ -41,32 +41,47 @@
 
 /*Cardes dos projetos*/
 
-.projects-desc{
-    margin-top: 4rem;
+.line{
+    width: 650px;
+    margin: 5px auto;
+}
+
+.projc{
+    margin-top: 2rem;
+    border: 1px dashed white;
+    border-radius: 5rem 5rem 0 0;
+    padding: 3rem;
+}
+
+.projects-desc{ 
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
     color: white;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 .box-projects{
     margin-top: 10px;
-    display: flex;
-    justify-content: center;
+    display: flex;  
     gap: 3rem;
+    padding: 10px;
+    overflow-x: scroll;
 }
 
 .card-project{
-    max-width: 350px;
-    min-width: 320px;
-    height: 400px;
+    width: 500px;
+    height: 600px;
     border-radius: 20px;
 
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain;
-    transition: 0.2s;
-}
-
-.card-project:hover{
-    height: 410px;
+    background-size: cover;
+    cursor: pointer;
+    
 }
 
 .one{
@@ -84,6 +99,33 @@
     background-image: url(../../public/img-projects/project-two.jpeg);
 }
 
+.four{
+    margin-top: 10px;
+    background-image: url(../../public/img-projects/project-five.jpeg);
+}
+
+.five{
+    margin-top: 10px;
+    background-image: url(../../public/img-projects/project-six.jpeg);
+}
+
+.six{
+    margin-top: 10px;
+    background-image: url(../../public/img-projects/projec-four.jpeg);
+}
+
+.a-projects{
+    position: absolute;
+    width: 500px;
+    height: 570px;
+    border: 0;
+}
+
+.a-projects:hover{
+    background-color: transparent;
+    border: none;
+}
+
 /*Descrição dos cardes dos projetos*/
 
 .h2-projects{
@@ -95,10 +137,34 @@
 
 @media (max-width: 920px){
     .warraper-projects{
-        height: 850px;
         padding-top: 4rem;
         text-align: center;
         border-radius: 10rem 10rem 0 0;
+    }
+
+    .line{
+        width: 100%;
+        margin: 5px auto;
+    }
+
+    .projects-desc{
+        align-items: start;
+    }
+
+    .projects-desc > .h1-projects{
+        font-size: 20px;
+    }
+
+    .projects-desc > .p-projects{
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .projc{
+        margin-top: 2rem;
+        border: none;
+        border-radius: 5rem 5rem 0 0;
+        padding: 0;
     }
 
     .h1-projects{
@@ -110,9 +176,10 @@
         overflow-x: scroll;
     }
 
-    .card-project:hover{
-        width: 320px;
-        height: 400px;
+    .card-project{
+        width: 340px;
+        height: 450px;
+        border-radius: 20px;     
     }
 
 }

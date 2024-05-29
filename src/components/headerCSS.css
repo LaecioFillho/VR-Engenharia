@@ -3,7 +3,7 @@
     height: 520px; 
     
     background-image: url(../assets/Fundos/back-abaut.jpeg);
-    background-position: center center;
+    background-position: 0px -300px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -66,6 +66,11 @@ a:hover{
 
 
 @media (max-width: 720px) {
+
+    .header{
+        background-position: center center;
+    }
+    
     a{
         display: none;
     }

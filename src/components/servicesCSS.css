@@ -61,7 +61,7 @@
 }
 
 .card{
-    height: auto;
+    height: 470px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,13 +85,11 @@
         overflow-x: scroll;
     }
 
-
-
     .arrow-next{
         display: block;
         position: absolute;
         top: 93%;
-        left: 47%;
+        left: 40%;
         width: 30px;
         height: 30px;
     }
