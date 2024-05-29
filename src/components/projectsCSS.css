@@ -48,9 +48,19 @@
 
 .projc{
     margin-top: 2rem;
-    border: 1px dashed white;
+    border: 1px solid white;
     border-radius: 5rem 5rem 0 0;
     padding: 3rem;
+    position: relative;
+}
+
+.iconVerification{
+    color: white;
+    top: 6%;
+    left: 90%;
+    position: absolute;
+    width: 80px;
+    height: 80px;
 }
 
 .projects-desc{ 
@@ -145,6 +155,10 @@
     .line{
         width: 100%;
         margin: 5px auto;
+    }
+
+    .iconVerification{
+        display: none;
     }
 
     .projects-desc{

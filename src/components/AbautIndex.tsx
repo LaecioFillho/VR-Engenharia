@@ -20,7 +20,7 @@ export default function AbautIndex() {
                     
                     <article>
                         <h1 className="h1-abaut">Empresa Especializada em <span className="h2-alternative">Projetos BIM</span></h1>
-                        <p className="p-abaut">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p className="p-abaut">Sempre pronta para realizar o seu Sonho!</p>
                         <div className="description-abaut">
                             <h2 className="h2-abaut">Sobre a <span className="h2-alternative">VR Engenharia</span></h2>
                             <p className="p-description-abaut">

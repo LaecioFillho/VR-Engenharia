@@ -1,4 +1,5 @@
 import "./projectsCSS.css"
+import { HiCheckBadge } from "react-icons/hi2";
 
 export default function ProjectsIndex() {
     
@@ -15,8 +16,10 @@ export default function ProjectsIndex() {
                 <section className="projc">
                     <div className="projects-desc">
                         <h1 className="h1-projects">Projeto de Instalações Hidráulicas</h1>
-                        <p className="p-projects">Nesse projeto foi estruturado toda a Instalação Hidráulica e Elétrica.</p>
+                        <p className="p-projects">Nesse projeto foi estruturado toda a Instalação Hidráulica e Elétrica.</p>         
                     </div>
+
+                    <HiCheckBadge className="iconVerification"/>
 
                     <aside className="box-projects">
                         <div>
@@ -41,6 +44,8 @@ export default function ProjectsIndex() {
                         <h1 className="h1-projects">Projeto de Instalações Elétricas</h1>
                         <p className="p-projects">Nesse projeto foi estruturado toda a Instalação Hidraulica e Elétrica.</p>
                     </div>
+
+                    <HiCheckBadge className="iconVerification"/>
 
                     <aside className="box-projects">
                         <div>
