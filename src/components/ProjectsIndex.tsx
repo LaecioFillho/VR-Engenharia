@@ -1,8 +1,11 @@
 import "./projectsCSS.css"
 import { HiCheckBadge } from "react-icons/hi2";
+import imgOneLeft from "../../public/img-projects/One-Left.jpeg"
+import imgOneFront from "../../public/img-projects/One-Front.jpeg"
+import imgOneRight from "../../public/img-projects/One-Rigth.jpeg"
 
 export default function ProjectsIndex() {
-    
+
     return(
         <>
             <section className="warraper-projects" id="iprojects">
@@ -15,8 +18,9 @@ export default function ProjectsIndex() {
 
                 <section className="projc">
                     <div className="projects-desc">
-                        <h1 className="h1-projects">Projeto de Instalações Hidráulicas</h1>
-                        <p className="p-projects">Nesse projeto foi estruturado toda a Instalação Hidráulica e Elétrica.</p>         
+                        <h1 className="h1-projects">
+                            Projeto de Instalações Hidráulicas
+                        </h1>
                     </div>
 
                     <HiCheckBadge className="iconVerification"/>
@@ -24,17 +28,27 @@ export default function ProjectsIndex() {
                     <aside className="box-projects">
                         <div>
                             <h2 className="h2-projects">Vista Ângulo Esquerdo</h2>
-                            <div className="card-project one"><a className="a-projects" href="https://www.instagram.com/vr.engenhariia/" target="_blank"></a></div>
+                            <div>
+                                <img className="imgs" src={imgOneLeft}/>
+                            </div>
                         </div>
                         <div>
                             <h2 className="h2-projects">Vista Central</h2>
-                            <div className="card-project two"><a className="a-projects" href="https://www.instagram.com/vr.engenhariia/" target="_blank"></a></div>
+                            <div>
+                                <img className="imgs" src={imgOneFront}/>
+                            </div>
                         </div>
                         <div>
                             <h2 className="h2-projects">Vista Ângulo Direito</h2>
-                            <div className="card-project three"><a className="a-projects" href="https://www.instagram.com/vr.engenhariia/" target="_blank"></a></div>
+                            <div>
+                                <img className="imgs" src={imgOneRight}/>
+                            </div>
                         </div>
+
                     </aside>
+                    <p className="p-projects">
+                        Nesse projeto foi estruturado toda a Instalação Hidráulica e Elétrica.
+                    </p>
                 </section>
 
                 <hr className="line" />
@@ -50,8 +64,10 @@ export default function ProjectsIndex() {
                     <aside className="box-projects">
                         <div>
                             <h2 className="h2-projects">Vista Ângulo Esquerdo</h2>
-                            <div className="card-project four"><a className="a-projects" href="https://www.instagram.com/vr.engenhariia/" target="_blank"></a></div>
-                        </div>
+                            <div className="align-imgs">
+
+                                <a className="a-projects" href="https://www.instagram.com/vr.engenhariia/" target="_blank"></a></div>
+                            </div>
                         <div>
                             <h2 className="h2-projects">Vista Central</h2>
                             <div className="card-project five"><a className="a-projects" href="https://www.instagram.com/vr.engenhariia/" target="_blank"></a></div>

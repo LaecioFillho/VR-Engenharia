@@ -11,9 +11,9 @@ function App() {
       <>
         <main>
           <HeaderIndex />
+          <ProjectsIndex />
           <ServicesIndex />
           <AbautIndex />
-          <ProjectsIndex />
           <ContatctIndex />
         </main>
         <footer>
@@ -22,5 +22,5 @@ function App() {
       </>
     )
   }
-  
+
   export default App

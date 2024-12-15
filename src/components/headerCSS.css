@@ -1,9 +1,8 @@
 .header{
     width: 100%;
-    height: 520px; 
-    
+    height: 520px;
     background-image: url(../assets/Fundos/back-abaut.jpeg);
-    background-position: 0px -300px;
+    background-position: 0 -400px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -13,17 +12,8 @@
     height: 520px;
     border: 0;
     padding: 20px;
+    display: flex;
     /*background-color: #000000c4;*/
-}
-
-.Logo{
-    width: 300px;
-    height: 300px;
-    
-    /*background-image: url(../assets/Logos/vr-white.png);*/
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .p-header{
@@ -37,7 +27,15 @@
 
 /*background: linear-gradient(to bottom, #100f0f, #05052f)*/
 
-nav{
+.nav1{
+    width: 100%;
+    text-align: left;
+    /*display: flex;
+    align-items: self-end;
+    gap: 15px;*/
+}
+
+.nav2{
     width: 100%;
     text-align: right;
     /*display: flex;
@@ -51,8 +49,6 @@ a{
     color: white;
     text-decoration: none;
     border-bottom: 1px solid white;
-    border-right: 1px solid white;
-    border-radius: 8px;
     padding: 8px;
     transition: 0.2s;
     margin: 20px 10px;
@@ -70,7 +66,7 @@ a:hover{
     .header{
         background-position: center center;
     }
-    
+
     a{
         display: none;
     }
